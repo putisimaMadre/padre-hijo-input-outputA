@@ -1,0 +1,11 @@
+<form [formGroup]="padreForm">
+    <label for="">nombre</label>
+    <input type="text" formControlName="nombre">
+    <label for="">apellido</label>
+    <input type="text" formControlName="apellido">
+    <label for="">edad</label>
+    <input type="text" formControlName="edad">
+    <button (click)="savePadre()">Guardar</button>
+</form>
+
+<app-hijo [valorPadre]="valor"></app-hijo>

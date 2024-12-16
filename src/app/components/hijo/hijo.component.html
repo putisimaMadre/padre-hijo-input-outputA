@@ -1,0 +1,11 @@
+<form [formGroup]="hijoForm">
+    <label for="">nombre</label>
+    <input type="text" formControlName="nombre">
+    <label for="">apellido</label>
+    <input type="text" formControlName="apellido">
+    <label for="">edad</label>
+    <input type="text" formControlName="edad">
+    <label for="">padre</label>
+    <input type="text" formControlName="padre">
+    <button (click)="saveHijo()">Guardar</button>
+</form>
