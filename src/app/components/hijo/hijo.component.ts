@@ -29,4 +29,8 @@ export class HijoComponent implements OnInit {
     console.log(this.hijoForm.value)
   }
 
+  prueba(): void{
+    console.log("prueba")
+  }
+
 }
