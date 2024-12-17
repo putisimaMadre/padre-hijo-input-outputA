@@ -45,4 +45,8 @@ export class HijoComponent implements OnInit {
     console.log("prueba 2")
   }
 
+  prueba5(): void {
+    console.log("prueba 2")
+  }
+
 }
