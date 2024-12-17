@@ -21,8 +21,8 @@ export class PadreComponent {
   savePadre(): void{
     console.log(this.padreForm.value)
     this.valor = this.padreForm.value
-    this.padreForm.valueChanges.subscribe(newValue => {
+    /*this.padreForm.valueChanges.subscribe(newValue => {
       console.log(newValue)
-    });
+    });*/
   }
 }
